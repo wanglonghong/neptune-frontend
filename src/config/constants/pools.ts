@@ -5,15 +5,15 @@ const pools: PoolConfig[] = [
     sousId: 0,
     tokenName: 'TUNE',
     stakingTokenName: QuoteToken.TUNE,
-    stakingTokenAddress: '0x826344754f200201b50524769A962516AD2bA6C2', // TUNE token
+    stakingTokenAddress: '0xFB2df30e1e68d828C185176049ea1bf1304157cB', // TUNE token
     contractAddress: { // masterChef contract
-      97: '0xF9d273194Fa68E56817C17313672Db35367450eF', 
-      56: '0xB543A8082294276D3dE730e74fb59f3b8771fc20',
+      97: '0xF9d273194Fa68E56817C17313672Db35367450eF',
+      56: '0xA8dDC3b7776DdBf292CC3f8943E27d7d51a2816E',
     },
     poolCategory: PoolCategory.CORE,
     projectLink: 'https://app.neptuneswap.org/',
     harvest: true,
-    tokenPerBlock: '10',
+    tokenPerBlock: '2',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,

@@ -19,6 +19,7 @@
 # misc
 .DS_Store
 .eslintcache
+yarn.lock
 
 # local env files
 .env.local
